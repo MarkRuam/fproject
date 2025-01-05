@@ -180,8 +180,6 @@ def main():
     if generate_data_button or 'generated':
         class_data = generate_synthetic_data(features, classes, total_sample_size)
         handle_data_output(features, classes, class_data, total_sample_size, train_test_split_percent)
-        
-        [Rest of the main function remains the same, just remove any upload-dataset related code]
 
 if __name__ == "__main__":
     main()
