@@ -164,7 +164,6 @@ def sidebar_section():
 
     return features, classes, total_sample_size, train_test_split_percent
 
-[Rest of the functions remain the same, just remove any upload-dataset related code from them]
 
 def main():
     st.title("🤖 ML Model Generator 🤖")
